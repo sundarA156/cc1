@@ -1,0 +1,1643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    width: 100%;
+    height: auto;
+}
+.nav-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(133, 21, 21);
+    gap: 10px;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlinks li {
+    list-style-type: none;
+    padding: 30px;
+
+}
+.navlinks li a {
+     color: #ffff;
+     text-decoration: none;
+}
+.navlinks li a:hover {
+    color: orange;
+}
+.navlinks i {
+    color: #ffff;
+}
+.socialicons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.socialicons i {
+    color: #ffff;
+}
+.socialicons i:hover {
+    color: orange;
+}
+.box {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: orange;
+    padding: 30px;
+}
+.box li {
+    list-style: none;
+}
+.box li a {
+    color: rgb(9, 9, 63);
+    text-decoration: none;
+}
+.box i {
+    color: rgb(9, 9, 63);
+}
+.box li a:hover {
+    color: #ffff;
+}
+.box i:hover {
+    color: #ffff;
+}
+
+.container2 {
+    width: 100%;
+    height: 280px;
+    background-color: rgb(17, 17, 109);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.figure1 {
+    width: 25%;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+}
+.figure1 img {
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.about {
+    width: 50%;
+    height: 280px;
+}
+.about h1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 40px;
+    font-family: "Oswald", Sans-serif;
+    color: #ffff;
+    text-shadow: -1px 1px rgba(0, 0, 0, 0.973);
+}
+.about h3 {
+    margin-top: 5px;
+    margin-left: 155px;
+    color: #ffff;
+    font-size: 30px;
+    font-family: "Lato", Sans-serif;
+    text-shadow: -1px 1px black;
+}
+.about p {
+    margin-top: 20px;
+    color: #ffff;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+}
+.about p2 {
+    color: #ffff;
+    margin-left: 10px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+.figure2 {
+    width: 25%;
+    height: 280px;
+}
+.figure2 img {
+    width: 70%;
+    height: 220px;
+    margin-top: 20px;
+}
+.slide {
+    width: 100%;
+    height: 60px;
+    background-color: #e6dfdf;
+    font-size: 20px;
+}
+.slide p3 {
+    float: left;
+    color:  rgb(39, 39, 235);
+    margin-top: 20px;
+    font-size: 20px;
+}
+span {
+    color: rgb(10, 10, 43);
+    font-size: bolder;
+    font-style: italic;
+}
+.heading{
+    width: 100%;
+    height: 60px;
+}
+.navcontainer3 {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #0d11c4;
+}
+.navbar2 {
+    display: flex;
+}
+.navlinks2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+#check {
+    display: none;
+}
+.source {
+    display: none;
+}
+.nav1 {
+    display: flex;
+    list-style-type: none;
+}
+.nav1 a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+.nav1 a:hover {
+    color: orange;
+}
+.aboutus-1 {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 240px;
+    margin-top: 5px;
+    position: absolute;
+    text-transform: capitalize;
+    display: none;
+}
+.navlinks2 li:focus-within >.aboutus-1,
+.navlinks2 li:hover >.aboutus-1{
+    display: block;
+}
+.aboutus-1 li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    font-weight: bold;
+}
+.aboutus-1 li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.aboutus-1 li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+
+.acd {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 220px;
+    margin-top: 5px;
+    position: absolute;
+    text-transform: capitalize;
+    display: none;
+}
+.navlinks2 li:focus-within >.acd,
+.navlinks2 li:hover >.acd{
+    display: block;
+}
+.acd li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.acd li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.acd li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+
+.dep {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 160px;
+    margin-top: -30px;
+    margin-left: 208px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.dep,
+.navlinks2 li:hover >.dep{
+    display: block;
+}
+.dep li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-size: bold;
+}
+.dep li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.dep li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+.art {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 138px;
+    margin-top: -30px;
+    margin-left: 208px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.art,
+.navlinks2 li:hover >.art{
+    display: block;
+}
+.art li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.art li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.art li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+
+
+.sin {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 400px;
+    height: 480px;
+    margin-top: -30px;
+    margin-left: 208px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.sin,
+.navlinks2 li:hover >.sin{
+    display: block;
+}
+.sin li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.sin li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.sin li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+.ad {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 99px;
+    margin-top: 0px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.ad,
+.navlinks2 li:hover >.ad{
+    display: block;
+}
+.ad li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.ad li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.ad li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+.rsh {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 199px;
+    margin-top: 0px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.rsh,
+.navlinks2 li:hover >.rsh{
+    display: block;
+}
+.rsh li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.rsh li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.rsh li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+
+.serv {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 417px;
+    margin-top: 0px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.serv,
+.navlinks2 li:hover >.serv{
+    display: block;
+}
+.serv li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.serv li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.serv li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+
+.cl {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 280px;
+    margin-top: 0px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.cl,
+.navlinks2 li:hover >.cl{
+    display: block;
+}
+.cl li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.cl li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.cl li a:hover{
+    color: rgb(248, 248, 248);
+}
+
+
+.iqac {
+    background-color: rgba(231, 228, 5, 0.856);
+    width: 230px;
+    height: 360px;
+    margin-top: 0px;
+    position: absolute;
+    text-transform: capitalize;
+    z-index: 1;
+    display: none;
+}
+.navlinks2 li:focus-within >.iqac,
+.navlinks2 li:hover >.iqac{
+    display: block;
+}
+.iqac li{
+    padding: 10px 20px;
+    margin-top: 0px;
+    border: solid gray 1px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.iqac li a{
+    text-transform: capitalize;
+    color: rgb(7, 7, 100);
+}
+.iqac li a:hover{
+    color: rgb(248, 248, 248);
+}
+.search i{
+    color: #ffff;
+    cursor: pointer;
+}
+.search i:hover {
+    color: orange;
+}
+
+
+
+main {
+    width: 100%;
+    height: auto;
+}
+#image {
+    width: 100%;
+    height: auto;
+}
+.imgconatiner {
+    width: 100%;
+    height: 90vh;
+    background-color: #0d11c4;
+    position: relative;
+}
+.slider{
+    width: 1100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    animation: slide 40s infinite ease-in-out;
+}
+.slide1 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/mpiarch2023-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide1 h1 {
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 20%;
+    font-size: 2.5rem;
+    color: #ffff;
+}
+.slide2 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/mpifront23-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide2 button1{
+    width: 20%;
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 30%;
+    padding: 15px 25px;
+    background-color: rgb(223, 109, 3);
+    color: #ffff;
+}
+.slide2 button1:hover {
+    background-color: #05051b;
+}
+.slide2 button2{
+    width: 13%;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 30%;
+    padding: 15px 20px;
+    background-color: rgb(10, 3, 34);
+    color: #ffff;
+}
+.slide2 button2:hover {
+    background-color:  rgb(223, 109, 3);
+}
+.slide3 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/chemistry-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide3 h1{
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 30%;
+    font-size: 2.5rem;
+    color: #ffff;
+}
+.slide4 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/b.ed_.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide4 h1{
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 30%;
+    font-size: 2.5rem;
+    color: #ffff;
+    width: 50%;
+}
+.slide5 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/convocation22.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide5 h3{
+   position: absolute;
+   width: 50%;
+   margin-top: 27%;
+   margin-left: 3%;
+   font-size: 1.7rem;
+}
+.slide5 h2 {
+    position: absolute;
+    width: 50%;
+    margin-top: 30%;
+    margin-left: 3%;
+    font-size: 2.5rem;
+    color: #ffff;
+}
+.slide5 h4 {
+    position: absolute;
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 35%;
+    font-size: 1.3rem;
+}
+.slide6 {
+    width: 100%;
+    height: auto;
+    min-height: 50em;
+    background-image: url(images/irs-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide6 h1{
+    width: 50%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 3%;
+    font-size: 2.8rem;
+    color: #ffff;
+}
+.slide6 h2{
+    position: absolute;
+    width: 50%;
+    margin-top: 35%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+}
+.slide7 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/isro.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 50em;
+}
+.slide7 h1{
+       width: 50%;
+       position: absolute;
+       margin-top: 30%;
+       margin-left: 30%;
+       font-size: 2.5rem;
+       color: #ffff;
+}
+.slide7 h2 {
+    width: 50%;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 30%;
+    font-size: 1.2rem;
+}
+.slide8 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/sspcon12-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 50em;
+}
+.slide8 h1 {
+    width: 50%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 30%;
+    font-size: 2.5rem;
+    color: #ffff;
+}
+.slide9 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/pongal2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60em;
+}
+.slide9 h1{
+    width: 50%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 30%;
+    font-size: 2.5rem;
+    color: #ffff;  
+} 
+.slide10 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/micro.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 50em;
+}
+.slide10 h1 {
+    width: 50%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 30%;
+    font-size: 2.5rem;
+    color: #ffff;  
+}
+.slide11 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/newcourse2324.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 50em;
+}
+@keyframes slide{
+     0%{
+        margin-left: 0%;
+     }
+     5%{
+        margin-left: -100%;
+     }
+     10%{
+        margin-left: -100%;
+     }
+     15%{
+        margin-left: -200%;
+     }
+     20%{
+        margin-left: -200%;
+     }
+     25%{
+        margin-left: -300%;
+     }
+     30%{
+        margin-left: -300%;
+     }
+     35%{
+        margin-left: -400%;
+     }
+     40%{
+        margin-left: -400%;
+     }
+     45%{
+        margin-left: -500%;
+     }
+     50%{
+        margin-left: -500%;
+     }
+     55%{
+        margin-left: -600%;
+     }
+     60%{
+        margin-left: -600%;
+     }
+     65%{
+        margin-left: -700%;
+     }
+     70%{
+        margin-left: -700%;
+     }
+     75%{
+        margin-left: -800%;
+     }
+     80%{
+        margin-left: -800%;
+     }
+     85%{
+        margin-left: -900%;
+     }
+     90%{
+        margin-left: -900%;
+     }
+     95%{
+        margin-left: -1000%;
+     }
+     100%{
+        margin-left: -1000%;
+     }
+}
+#two {
+    width: 100%;
+    height: auto;
+}
+.container-mpc {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+    position: relative;
+}
+.mpc-main {
+    width: 70%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+}
+.mpc-main p {
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 50px;
+}
+.mpc-main p span{
+    font-weight: bold;
+    font-style: normal;
+}
+.mpc-main p2 {
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 3%;
+   
+}
+.mpc-main p2 span{
+    font-weight: bold;
+    font-style: normal;
+}
+.mpc-main p3 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+.mpc-main p3 span {
+    font-weight: bold;
+    font-style: normal;
+}
+.para p {
+    margin-left: 50px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.mpc-sub {
+   width: 30%;
+   height: 90vh;
+}
+strong {
+    width: 30%;
+    height: 60px;
+    margin-left: 100px;
+    font-size: 1.5rem;
+}
+.scroll {
+    width: 100%;
+    height: 50vh;
+}
+.service {
+    margin-top: 40px;
+    width: 95%;
+    margin-left: 10px;
+    height: 60vh;
+    background-color: #ffff;
+}
+.one {
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid gray;
+}
+.one h1 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #13146d;
+    margin-left: 80px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.one h2 {
+    margin-left: 100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #05051a;
+}
+.one img {
+    margin-left: 50px;
+    width: 30px;
+    height: 20px;
+}
+.two {
+    width: 100%;
+    height: 30vh;
+    border-bottom: 1px solid gray;
+}
+.two p{
+    margin-top: 40px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #0d11c4;
+}
+.two span {
+    text-decoration: underline;
+    font-style: normal;
+    color: #070729;
+}
+.two img {
+    margin-top: 20px;
+    width: 30px;
+    height: 20px;
+}
+#chairman {
+    width: 100%;
+    height: 70.1vh;
+}
+.message {
+    width: 95%;
+    height: 70.1vh;
+    margin-left: 30px;
+}
+.cm {
+    width: 100%;
+    height: 100px;
+}
+.cm h4 {
+    font-size: 20px;
+    margin-left: 37%;
+    color: brown;
+}
+.cm h1 {
+    margin-left: 35%;
+    font-size: 2.2rem;
+    font-family: "Lato", Sans-serif;
+    font-weight: 100;
+}
+.cm p {
+    margin-top: 10px;
+    width: 15%;
+    border: 2px solid rgb(133, 21, 21);
+    margin-left: 40%;
+}
+.msg {
+    width: 95%;
+    height: 55vh;
+    margin-left: 30px;
+    display: flex;
+}
+.para1 {
+    width: 70%;
+    height: 55vh;
+}
+.para1 {
+    font-size: 1.0rem;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 27px;
+}
+.para1 span {
+    color: #070729;
+    font-style: normal;
+    font-weight: bold;
+}
+.logo img{
+     width: 95%;
+     height: 200px;
+     margin-left: 10px;
+     border-radius: 20px;
+}
+.logo h4 {
+    color: rgb(133, 21, 21);
+    margin-left: 30px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:800px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    .nav-container {
+        width: 100%;
+        height: 260px;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgb(133, 21, 21);
+    }
+    .navlinks {
+        display: grid;
+    }
+    .navlinks li {
+        margin-top: 10px;
+        padding: 0px;
+        text-align: center;
+    }
+    .socialicons i{
+        display: none;
+
+    }
+    .box {
+        width: 75%;
+        height: 50px;
+        display: flex;
+        margin-top: -80px;
+        font-size: 12px;
+        background-color: orange;
+        text-align: center;
+        font-weight: bolder;
+        margin-left: 40px;
+    }
+    .container2 {
+        width: 100%;
+        height: auto;
+        background-color: rgb(17, 17, 109);
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .figure1 {
+        width: 100%;
+        height: 280px;
+    }
+    .figure1 img {
+        width: 80%;
+        height: 240px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .about {
+        width: 100%;
+        height: auto;
+       
+    }
+    .about h1 {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 30px;
+        font-family: "Oswald", Sans-serif;
+        color: #ffff;
+        text-shadow: -1px 1px rgba(0, 0, 0, 0.973);
+        text-align: center;
+       
+    }
+    .about h3 {
+        margin-top: 5px;
+        margin-left: 0px;
+        color: #ffff;
+        font-size: 25px;
+        font-family: "Lato", Sans-serif;
+        text-shadow: -1px 1px black;
+        text-align: center;
+    }
+    .about p {
+        width: 100%;
+        margin-top: 20px;
+        color: #ffff;
+        margin-left: 0px;
+        font-size: 18px;
+        font-weight: bolder;
+        text-align: center;
+        line-height: 30px;
+    }
+    .about p2 {
+        width: 100%;
+        color: #ffff;
+        margin-left: 10px;
+        font-weight: bolder;
+        line-height: 30px;
+        text-align: center;
+    }
+    .figure2 {
+        width: 100%;
+        height: auto;
+    }
+    .figure2 img {
+        width: 70%;
+        height: 220px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .navlinks2 {
+        display: none;
+    }
+    .source {
+        display: block;
+        margin-top: 15px;
+        margin-left: 45%;
+        position: absolute;
+        border: 1px solid rgb(241, 201, 20);
+        padding: 2px 5px 2px ;
+        color: white;
+        font-size: 1.5rem;
+    }
+    #check:checked~.navlinks2 {
+        display: flex;
+        z-index: 1;
+    }
+    .nav1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:40px;
+    }
+    .search{
+        display: none;
+    }
+    main {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    #image {
+        width: 100%;
+        height: auto;
+    }
+    .imgconatiner {
+        width: 100%;
+        height: auto;
+        background-color: #0d11c4;
+        position: relative;
+    }
+    .slider{
+        width: 1100%;
+        height: 90vh;
+        overflow: hidden;
+        display: flex;
+        animation: slide 40s infinite ease-in-out;
+    }
+    .slide1 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/mpiarch2023-scaled.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide1 h1 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 50%;
+        font-size: 1.5rem;
+        color: #0a0303;
+        width: 90%;
+      
+    }
+    .slide2 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/mpifront23-scaled.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide2 button1{
+        width: 70%;
+        margin-left: 13%;
+        margin-top: 50%;
+        padding: 15px 25px;
+        background-color: rgb(223, 109, 3);
+        color: #ffff;
+        
+    }
+    .slide2 button1:hover {
+        background-color: #05051b;
+    }
+    .slide2 button2{
+        width: 40%;
+        margin-left: 13%;
+        margin-top: 70%;
+        padding: 15px 20px;
+        background-color: rgb(10, 3, 34);
+        color: #ffff;
+    }
+    .slide2 button2:hover {
+        background-color:  rgb(223, 109, 3);
+    }
+    .slide3 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/chemistry-scaled.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide3 h1{
+        margin-left: 13%;
+        margin-top: 70%;
+        font-size: 2.5rem;
+        color: #080808;
+    }
+    .slide4 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/b.ed_.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide4 h1{
+        position: absolute;
+        margin-left: 13%;
+        margin-top: 30%;
+        font-size: 2.5rem;
+        color: #ffff;
+        text-align: justify;
+        width: 50%;
+    }
+    .slide5 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/convocation22.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide5 h3{
+       position: absolute;
+       width: 50%;
+       margin-top: 27%;
+       margin-left: 3%;
+       font-size: 1.7rem;
+    }
+    .slide5 h2 {
+        position: absolute;
+        width: 50%;
+        margin-top: 30%;
+        margin-left: 3%;
+        font-size: 2.5rem;
+        color: #ffff;
+    }
+    .slide5 h4 {
+        position: absolute;
+        width: 50%;
+        margin-left: 3%;
+        margin-top: 35%;
+        font-size: 1.3rem;
+    }
+    .slide6 {
+        width: 100%;
+        height: auto;
+        min-height: 50em;
+        background-image: url(images/irs-scaled.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide6 h1{
+        width: 50%;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 3%;
+        font-size: 2.8rem;
+        color: #ffff;
+    }
+    .slide6 h2{
+        position: absolute;
+        width: 50%;
+        margin-top: 35%;
+        margin-left: 3%;
+        font-size: 1.5rem;
+    }
+    .slide7 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/isro.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 50em;
+    }
+    .slide7 h1{
+           width: 50%;
+           position: absolute;
+           margin-top: 30%;
+           margin-left: 30%;
+           font-size: 2.5rem;
+           color: #ffff;
+    }
+    .slide7 h2 {
+        width: 50%;
+        position: absolute;
+        text-align: justify;
+        margin-top: 35%;
+        margin-left: 30%;
+        font-size: 1.2rem;
+    }
+    .slide8 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/sspcon12-1.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 50em;
+    }
+    .slide8 h1 {
+        width: 50%;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 30%;
+        font-size: 2.5rem;
+        color: #ffff;
+    }
+    .slide9 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/pongal2.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 60em;
+    }
+    .slide9 h1{
+        width: 50%;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 30%;
+        font-size: 2.5rem;
+        color: #ffff;  
+    } 
+    .slide10 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/micro.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 50em;
+    }
+    .slide10 h1 {
+        width: 50%;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 30%;
+        font-size: 2.5rem;
+        color: #ffff;  
+    }
+    .slide11 {
+        width: 100%;
+        height: auto;
+        background-image: url(images/newcourse2324.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 50em;
+    }
+    @keyframes slide{
+         0%{
+            margin-left: 0%;
+         }
+         5%{
+            margin-left: -100%;
+         }
+         10%{
+            margin-left: -100%;
+         }
+         15%{
+            margin-left: -200%;
+         }
+         20%{
+            margin-left: -200%;
+         }
+         25%{
+            margin-left: -300%;
+         }
+         30%{
+            margin-left: -300%;
+         }
+         35%{
+            margin-left: -400%;
+         }
+         40%{
+            margin-left: -400%;
+         }
+         45%{
+            margin-left: -500%;
+         }
+         50%{
+            margin-left: -500%;
+         }
+         55%{
+            margin-left: -600%;
+         }
+         60%{
+            margin-left: -600%;
+         }
+         65%{
+            margin-left: -700%;
+         }
+         70%{
+            margin-left: -700%;
+         }
+         75%{
+            margin-left: -800%;
+         }
+         80%{
+            margin-left: -800%;
+         }
+         85%{
+            margin-left: -900%;
+         }
+         90%{
+            margin-left: -900%;
+         }
+         95%{
+            margin-left: -1000%;
+         }
+         100%{
+            margin-left: -1000%;
+         }
+    }
+    #two {
+        width: 100%;
+        height: auto;
+    }
+    .container-mpc {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+    .mpc-main {
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .mpc-main p {
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+    .mpc-main p span{
+        font-weight: bold;
+        font-style: normal;
+    }
+    .mpc-main p2 {
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 3%;
+       
+    }
+    .mpc-main p2 span{
+        font-weight: bold;
+        font-style: normal;
+    }
+    .mpc-main p3 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .mpc-main p3 span {
+        font-weight: bold;
+        font-style: normal;
+    }
+    .para p {
+        margin-left: 0px;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .mpc-sub {
+       width: 100%;
+       height: auto;
+    }
+    strong {
+        width: 100%;
+        height: 60px;
+        margin-left: 100px;
+        font-size: 1.5rem;
+    }
+    .scroll {
+        width: 100%;
+        height: auto;
+    }
+    .service {
+        margin-top: 40px;
+        width: 95%;
+        margin-left: 10px;
+        height: auto;
+        background-color: #ffffff;
+    }
+    .one {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid gray;
+    }
+    .one h1 {
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #13146d;
+        margin-top: 20px;
+        margin-left: 80px;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .one h2 {
+        margin-left: 100px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #05051a;
+    }
+    .one img {
+        margin-left: 50px;
+        width: 30px;
+        height: 20px;
+    }
+    .two {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid gray;
+    }
+    .two p{
+        margin-top: 40px;
+      font-size: 1.2rem;
+      text-align: center;
+      color: #0d11c4;
+    }
+    .two span {
+        text-decoration: underline;
+        font-style: normal;
+        color: #070729;
+    }
+    .two img {
+        margin-top: 20px;
+        width: 30px;
+        height: 20px;
+    }
+    #chairman {
+        width: 100%;
+        height: auto;
+    }
+    .message {
+        width: 95%;
+        height: auto;
+        margin-left: 30px;
+    }
+    .cm {
+        width: 100%;
+        height: 100px;
+    }
+    .cm h4 {
+        font-size: 20px;
+        margin-left: 7%;
+        color: brown;
+    }
+    .cm h1 {
+        margin-left: 10%;
+        font-size: 1.5rem;
+        font-family: "Lato", Sans-serif;
+        font-weight: 100;
+    }
+    .cm p {
+        margin-top: 10px;
+        width: 20%;
+        border: 2px solid rgb(133, 21, 21);
+        margin-left: 30%;
+    }
+    .msg {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .para1 {
+        width: 100%;
+        height: auto;
+    }
+    .para1 {
+        font-size: 1.0rem;
+        font-family: sans-serif;
+        text-align: justify;
+        line-height: 27px;
+        margin-left: -20px;
+    }
+    .para1 span {
+        color: #070729;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+    .logo img{
+       width: 100%;
+       height: 200px;
+       margin-left: -20px;
+       border-radius: 20px;
+    }
+    .logo h4 {
+        color: rgb(133, 21, 21);
+        margin-left: 0px;
+        line-height: 20px;
+    }
+    
+
+}
